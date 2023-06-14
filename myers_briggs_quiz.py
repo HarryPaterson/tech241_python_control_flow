@@ -15,7 +15,50 @@ else:
 
 # Set type statements
 
+extrovert_statements = [
+    "I am seen as outgoing or as a people person."
+    "I feel comfortable in groups and like working in them"
+]
+introvert_statements = [
+    "I feel comfortable being alone and like things I can do on my own"
+    "I prefer to know just a few people well"
+]
+intuition_statements = [
+    "I remember events by what I read between the lines about their meaning"
+    "I solve problems by leaping between different ideas and possibilities."
+]
+sensing_statements = [
+    "I remember events as snapshots of what actually happened"
+    "I solve problems by working through facts until I understand the problem."
+]
+thinking_statements = [
+    "I enjoy technical and scientific fields where logic is important."
+    "I make decisions with my head and want to be fair."
+]
+feeling_statements = [
+    "I am concerned with harmony and nervous when it is missing."
+    "I look for what is important to others and express concern for others."
+]
+judging_statements = [
+    "I like to make lists of things to do."
+    "Sometimes I focus so much on the goal that I miss new information."
+]
+perceiving_statements = [
+    "I like to stay open to respond to whatever happens."
+    "I work in bursts of energy."
+]
+
 # Set type variables
+extrovert_score = 0
+introvert_score = 0
+intuition_score = 0
+sensing_score = 0
+thinking_score = 0
+feeling_score = 0
+judging_score = 0
+perceiving_score = 0
+
+# Run statements
 
 # Calculate result
 
