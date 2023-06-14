@@ -2,6 +2,7 @@
 
 # Welcome messages
 print("Welcome to the Myers-Briggs personality test!")
+print("Please rate statements from 1 (Strongly Disagree) to 5 (Strongly Agree")
 print("Would you like to know what personality type you are?")
 
 # Confirm start
@@ -59,6 +60,55 @@ judging_score = 0
 perceiving_score = 0
 
 # Run statements
+
+for statement in extrovert_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    extrovert_score += rating
+for statement in introvert_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    introvert_score += rating
+for statement in intuition_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    intuition_score += rating
+for statement in sensing_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    sensing_score += rating
+for statement in thinking_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    thinking_score += rating
+for statement in feeling_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    feeling_score += rating
+for statement in judging_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    judging_score += rating
+for statement in perceiving_statements:
+    print(f"{statement}\n")
+
+    rating = int(input("Enter your rating (1 to 5: "))
+
+    perceiving_score += rating
 
 # Calculate result
 
