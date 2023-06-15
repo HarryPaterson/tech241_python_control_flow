@@ -128,5 +128,28 @@ if judging_score >= perceiving_score:
 else:
     judging_perceiving = "P"
 # Result
+type_dict = {
+    "ISTJ": "Inspector",
+    "ISFJ": "Protector",
+    "INFJ": "Counselor",
+    "INTJ": "Mastermind",
+    "ISTP": "Craftsman",
+    "ISFP": "Composer",
+    "INFP": "Healer",
+    "INTP": "Architect",
+    "ESTP": "Dynamo",
+    "ESFP": "Performer",
+    "ENFP": "Champion",
+    "ENTP": "Inventor",
+    "ESTJ": "Supervisor",
+    "ESFJ": "Provider",
+    "ENFJ": "Teacher",
+    "ENTJ": "Commander"
+}
+
+type = str(extrovert_introvert)+str(intuition_sensing)+str(thinking_feeling)+str(judging_perceiving)
+
 print("Your personality type is: ",extrovert_introvert,intuition_sensing,thinking_feeling,judging_perceiving)
+print(("Your personality type is: " + type + "which is also known as The " + types_dict[type] + "!")
+
 #Bonus again
