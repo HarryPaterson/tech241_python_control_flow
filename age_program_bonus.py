@@ -1,5 +1,6 @@
 # Movie ratings program
 
+# Create dictionary of ages and written form
 age_dict = {
     "zero": 0,
     "one": 1,
@@ -22,10 +23,12 @@ age_dict = {
     "eighteen": 18,
 }
 
+# Take user input
 age_input = str(input("What is your age?(Please enter this as a lowercase word:"))
-age_lower = age.lower()
+age_lower = age_input.lower()
 age = age_dict.get(age_lower)
 
+# Display ratings
 if age >= 18:
     print("You can watch all movies!")
 elif age >= 15:
@@ -36,7 +39,3 @@ elif age >= 8:
     print("Sorry you cannot watch 18,15 or 12 rated movies, but you can watch all other movies")
 else:
     print("You can only watch U rated movies")
-
-
-# Print the allowed movie ratings
-print(ratings)
