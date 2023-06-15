@@ -147,9 +147,7 @@ type_dict = {
     "ENTJ": "Commander"
 }
 
-type = str(extrovert_introvert)+str(intuition_sensing)+str(thinking_feeling)+str(judging_perceiving)
+type = str(extrovert_introvert+intuition_sensing+thinking_feeling+judging_perceiving)
 
-print("Your personality type is: ",extrovert_introvert,intuition_sensing,thinking_feeling,judging_perceiving)
-print(("Your personality type is: " + type + "which is also known as The " + types_dict[type] + "!")
-
-#Bonus again
+# print("Your personality type is: ",extrovert_introvert,intuition_sensing,thinking_feeling,judging_perceiving)
+print("Your personality type is " + type + " which is also known as The " + type_dict[type] + "!")
